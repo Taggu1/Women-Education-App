@@ -1,8 +1,9 @@
 import 'package:flutter/material.dart';
-import 'package:project1/colors.dart';
-import 'package:project1/courses_widget.dart';
-import 'package:project1/platform.dart';
-import 'package:project1/scholarships_widget.dart';
+
+import 'colors.dart';
+import 'courses_widget.dart';
+import 'platform.dart';
+import 'scholarships_widget.dart';
 
 class CoursesAndScolarships extends StatelessWidget {
   final Platform platform;

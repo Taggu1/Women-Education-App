@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:project1/colors.dart';
+
+import 'colors.dart';
 
 class WelcomingTextWidget extends StatelessWidget {
   const WelcomingTextWidget({super.key});

@@ -1,7 +1,7 @@
+import 'package:Women_Education_App/platform.dart';
 import 'package:flutter/material.dart';
-import 'package:project1/colors.dart';
-import 'package:project1/courses_and_scolarships.dart';
-import 'package:project1/platform.dart';
+
+import 'courses_and_scolarships.dart';
 
 class PlatformCardWidget extends StatelessWidget {
   final Platform platform;

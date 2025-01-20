@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:project1/platform.dart';
 import 'package:url_launcher/url_launcher.dart';
 
+import 'platform.dart';
 import 'platforms_screen.dart';
 
 class ScholarshipsWidget extends StatelessWidget {

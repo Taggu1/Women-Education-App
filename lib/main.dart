@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:project1/colors.dart';
 import 'main_screen.dart';
 
 void main() => runApp(WomenEducationApp());

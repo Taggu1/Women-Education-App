@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:project1/colors.dart';
-import 'package:project1/platform_card_widget.dart';
 
+import 'colors.dart';
 import 'platform.dart';
+import 'platform_card_widget.dart';
 
 class PlatformsScreen extends StatefulWidget {
   const PlatformsScreen({super.key});
@@ -24,6 +24,9 @@ class _PlatformsScreenState extends State<PlatformsScreen> {
             mainAxisAlignment: MainAxisAlignment.start,
             crossAxisAlignment: CrossAxisAlignment.start,
             children: [
+              SizedBox(
+                height: 20,
+              ),
               IconButton(
                 onPressed: () {
                   Navigator.of(context).pop();
@@ -34,7 +37,7 @@ class _PlatformsScreenState extends State<PlatformsScreen> {
                 ),
               ),
               SizedBox(
-                height: 20,
+                height: 10,
               ),
               Text(
                 "Available platforms",

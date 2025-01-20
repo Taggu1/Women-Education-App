@@ -14,8 +14,7 @@ class WomenEducationApp extends StatelessWidget {
       title: 'Women Education App',
       theme: ThemeData(
         useMaterial3: true,
-        scaffoldBackgroundColor: AppPalette.backgroundColor,
-        primaryColor: Colors.pink[300], // Feminine pink theme color
+        scaffoldBackgroundColor: Colors.white,
       ),
       home: MainScreen(),
     );
